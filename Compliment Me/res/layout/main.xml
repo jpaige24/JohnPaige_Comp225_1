@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+    <Button
+        android:id="@+id/complimentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/compliment_me" />
+
+    <TextView
+        android:id="@+id/complimentView"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:gravity="center_horizontal"
+        android:text="@string/compliment0"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/authorView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="This is where the compliment author will go"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.90"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/complimentCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="You have received 0 compliments so far!"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>

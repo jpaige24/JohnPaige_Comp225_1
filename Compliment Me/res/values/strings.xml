@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Compliment Me</string>
+    <string name="compliment_me">Compliment me!</string>
+    <string name="about">This is based off the website http://www.ilikeyourjacket.com/.</string>
+    <string name="compliment0">Would you like a compliment?</string>
+</resources>
